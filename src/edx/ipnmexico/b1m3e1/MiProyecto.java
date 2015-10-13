@@ -7,4 +7,18 @@ public class MiProyecto {
 
 	}
 
+	//-> Valida la edad permitida para la expedición de la licencia de conducir.
+	public static boolean validarEdad( int edad ) {
+		
+		if( edad >= 18 ) {
+			System .out .println( edad + " Si es mayor de edad :)" );
+			return true;
+		}
+		else {
+			System .out .println( edad + " No es mayor de edad :'(" );
+			return false;
+		}
+		
+	}
+	
 }
