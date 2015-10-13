@@ -21,4 +21,8 @@ public class MiProyecto {
 		
 	}
 	
+	public static int incrementarEdad( int edad ) {
+		return edad + 1;
+	}
+	
 }
